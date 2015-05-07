@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pouchdb": "^3.3.1"
+    "pouchdb": "^3.5.0"
   },
   "devDependencies": {
     "json-loader": "^0.5.1"
