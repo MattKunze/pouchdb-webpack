@@ -1,3 +1,5 @@
+var webpack = require('webpack');
+
 module.exports = {
   entry: {
     normal: "./normal.js",
@@ -14,5 +16,8 @@ module.exports = {
     }
     ],
     noParse: /(lie|pouchdb)\.js$/
-  }
+  },
+  plugins: [
+    new webpack.optimize.UglifyJsPlugin
+  ]
 }

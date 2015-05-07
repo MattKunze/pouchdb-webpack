@@ -12,6 +12,7 @@
     "pouchdb": "^3.5.0"
   },
   "devDependencies": {
-    "json-loader": "^0.5.1"
+    "json-loader": "^0.5.1",
+    "webpack": "^1.8.11"
   }
 }
